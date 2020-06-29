@@ -76,7 +76,7 @@ public class DisciplinaController {
 
 	}
 
-	@GetMapping("/v1/api/disciplinas/ranking")
+	@GetMapping("/ranking")
 	public ResponseEntity<?> getListOrdered() {
 		return new ResponseEntity<>(service.getOrdeneredList(), HttpStatus.OK);
 	}
