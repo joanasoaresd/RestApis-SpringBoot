@@ -8,6 +8,7 @@ public class GerenciadorDiciplinasApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(GerenciadorDiciplinasApplication.class, args);
+		System.out.print("Inicializando");
 	}
 
 }
